@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Mountains+of+Christmas:700);
+
+#message {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  z-index: 10;
+
+  font-size: 6.5vw;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  width: 100%;
+  color: #fff;
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+.christmas-blue {
+  background: -webkit-linear-gradient(transparent, transparent), url(/images/blue_glitter.gif) repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 8px;
+}
+
+.christmas-gold {
+  background: -webkit-linear-gradient(transparent, transparent), url(/images/gold_glitter.gif) repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 8px;
+}
