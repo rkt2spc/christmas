@@ -6,6 +6,6 @@ $.fn.christmas = function() {
   });
 };
 
-$(function() { // don't forget $(document).ready!
+$(function() {
   $('#message').christmas();
 });
