@@ -61,7 +61,11 @@
     <li></li>
     <li></li>
   </ul>
-  <div id="message">Merry Christmas</div>
+  <div id="message"
+    style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
+    unselectable="on"
+    onselectstart="return false;" 
+    onmousedown="return false;">Merry Christmas</div>
 
   <!-- Add this to bypass WebAudio autoplay policy -->
   <iframe src="media/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
